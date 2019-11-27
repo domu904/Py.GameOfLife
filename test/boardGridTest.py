@@ -2,7 +2,13 @@ import unittest
 
 
 class BoardGridTestC(unittest.TestCase):
-    def test_something(self):
+    def test_boardGrid(self):
+        self.assertEqual(True, False)
+
+    def test_initializeGrids(self):
+        self.assertEqual(True, False)
+
+    def test_resetGrids(self):
         self.assertEqual(True, False)
 
 
