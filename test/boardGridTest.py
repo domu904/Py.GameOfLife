@@ -1,6 +1,5 @@
 import unittest
 
-
 class BoardGridTestC(unittest.TestCase):
     def test_boardGrid(self):
         self.assertEqual(True, False)
