@@ -1,6 +1,6 @@
 def my_function():
-    print ("Hello World again")
-    print("My name is Dr Who")
+    print ("Hello World")
+    print("Welcome to the Game of Life")
 
 
 my_function()
