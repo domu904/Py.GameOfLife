@@ -4,3 +4,6 @@ class constant:
     margin = 2
     deadColor = "#FFF"
     surviveColor = "#000"
+    backgroundColor = "#FFF"
+
+

@@ -3,4 +3,8 @@ class Engine:
         self.interval = interval
 
     def draw():
+
+    def reDraw():
+
+
         
