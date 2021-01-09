@@ -6,7 +6,7 @@ It is is a cellular automaton and a zero-player game. The evolution is determine
 
 **The rule for Game of Life is as follow:**
 
-1. Any live cell with fewer than 2 live neighbour dies
-2. Any live cell with 2 or 3 live neighbour lives on to the next generation
-3. Any live cell with more than 3 live neighbour dies
-4. Any dead cell with exactly 3 live neighbour becomes a live cell
+1. Any live cell with fewer than two live neighbours dies, as if by underpopulation.
+2. Any live cell with two or three live neighbours lives on to the next generation.
+3. Any live cell with more than three live neighbours dies, as if by overpopulation.
+4. Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
