@@ -1,6 +1,6 @@
 import unittest
 
-from model import cell
+from model.cell import Cell
 
 class CellTest(unittest.TestCase):
     def test_cell_has_x_position(self):

@@ -1,14 +1,13 @@
 import unittest
 
-from model import board
-
+from model.board import Board
 
 class BoardTest(unittest.TestCase):
     def test_board_x_position(self):
-        board = Board(4, 4)
-        board.x = 4
+        myBoard = Board(4, 4)
+        myBoard.x = 4
         expected = 4
-        assert expected == board.x
+        assert expected == myBoard.x
 
     def test_board_cell(self):
         self.assertEqual('foo'.upper(), 'FOO')
