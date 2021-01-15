@@ -1,6 +1,6 @@
 import unittest
 
-from model.board import Board
+from model.board import Board 
 
 class BoardTest(unittest.TestCase):
     def test_board_x_position(self):
