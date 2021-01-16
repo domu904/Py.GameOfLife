@@ -9,6 +9,12 @@ class BoardTest(unittest.TestCase):
         expected = 4
         assert expected == myBoard.x
 
+    def test_board_y_position(self):
+        myBoard = Board(3, 3)
+        myBoard.x = 3
+        expected = 3
+        assert expected == myBoard.x
+
     def test_board_cell(self):
         self.assertEqual('foo'.upper(), 'FOO')
 
