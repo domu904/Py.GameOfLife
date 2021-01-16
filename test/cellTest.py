@@ -16,6 +16,20 @@ class CellTest(unittest.TestCase):
         if myCell.y > 0:
             a = True
         self.assertEqual(True, a)
+    
+    def test_update_state(self):
+        a = False
+        myCell = Cell(3, 3)
+        if myCell.y > 0:
+            a = True
+        self.assertEqual(True, a)
+    
+    def test_constructor(self):
+        a = False
+        myCell = Cell(3, 3)
+        if myCell.y > 0:
+            a = True
+        self.assertEqual(True, a)
 
 
 if __name__ == '__main__':
