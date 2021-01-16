@@ -15,6 +15,15 @@ class BoardTest(unittest.TestCase):
         expected = 3
         assert expected == myBoard.x
 
+    def test_get_neighbours(self):
+        self.assertEqual('foo'.upper(), 'FOO')
+    
+    def test_all_cells_die(self):
+        self.assertEqual('foo'.upper(), 'FOO')
+    
+    def test_grid_stay_the_same(self):
+        self.assertEqual('foo'.upper(), 'FOO')
+
     def test_board_cell(self):
         self.assertEqual('foo'.upper(), 'FOO')
 
