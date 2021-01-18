@@ -4,6 +4,12 @@ class play:
         self.rules = rules
         self.max_size = max_size
 
+    def run_game(self, it):
+        """
+        docstring
+        """
+        pass
+
     def start(self, parameter_list):
         """
         docstring
