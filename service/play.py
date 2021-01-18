@@ -1,7 +1,8 @@
 class play:
-    def __init__(self, x, y):
-        self.x = x
-        self.y = y
+    def __init__(self, initial_state, rules, max_size):
+        self.initial_state = initial_state
+        self.rules = rules
+        self.max_size = max_size
 
     def start(self, parameter_list):
         """
