@@ -1,5 +1,6 @@
 import sys
 import argparse
+import numpy as np
 
 def main_function():
     print("Welcome to the Game of Life")
