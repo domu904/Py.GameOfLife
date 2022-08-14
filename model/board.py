@@ -1,5 +1,6 @@
 class Board:
-    boardGrids = []
+
+    boardGrids = [50]
 
     def __init__(self, x, y):
         self.x = x
