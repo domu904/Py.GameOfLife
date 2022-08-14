@@ -1,6 +1,7 @@
 import sys
 import argparse
 import numpy as np
+import model
 
 def main_function():
     print("Welcome to the Game of Life")
@@ -12,6 +13,6 @@ def main_function():
     print("starting board size is " + boardSize)
     print("starting cell size is " + startingCellSize)
 
-    board = Board(boardSize,boardSize)
+    board = model.Board(boardSize,boardSize)
 
 main_function()
